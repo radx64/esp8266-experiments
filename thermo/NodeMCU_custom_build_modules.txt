@@ -1,0 +1,5 @@
+Your NodeMCU custom build finished successfully. You may now download the firmware:
+- integer: http://nodemcu-build.com/builds/nodemcu-master-10-modules-2018-03-11-11-38-05-integer.bin
+
+This was built against the master branch and includes the following modules: adc, dht, ds18b20, file, gpio, net, node, tmr, uart, wifi.
+The files are guaranteed to be available for download for 24h.
