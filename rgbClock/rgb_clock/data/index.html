@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>ESP8266 Web Server</h1>
+<form action="/index.html" method="post">
+NTP server url:<br>
+<input list="ntp_url" value="0.pl.pool.ntp.org">
+  <datalist id="ntp_url">
+    <option value="0.pl.pool.ntp.org">
+    <option value="1.pl.pool.ntp.org">
+    <option value="2.pl.pool.ntp.org">
+    <option value="3.pl.pool.ntp.org">
+  </datalist> 
+<button type="button" onclick="alert('TEST!')">refresh!</button>
+<br>
+<br>
+color:<br>
+<input type="color" name="color" value="#ff0000">
+<br>
+<br>
+rgb:
+<input type="range" name="r" min="0" max="255">
+<input type="range" name="g" min="0" max="255">
+<input type="range" name="b" min="0" max="255">
+<br>
+<br>
+<input type="submit" value="save & reload">
+</form>
+</body>
+</html>
+
